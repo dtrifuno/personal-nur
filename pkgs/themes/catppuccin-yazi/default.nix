@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
     owner = "catppuccin";
     repo = "yazi";
     rev = "9bfdccc2b78d7493fa5c5983bc176a0bc5fef164";
-    hash = lib.fakeHash;
+    hash = "sha256-a2X9WToZmctD1HZVqN9A512iPd+3dtjRloBEifgteF4=";
   };
 
   installPhase = ''
@@ -26,7 +26,7 @@ stdenv.mkDerivation rec {
     homepage = "https://github.com/catppuccin/yazi";
     license = licenses.mit;
     maintainers = with maintainers; [];
-    mainProgram = "yazi";
+    #mainProgram = "yazi";
     platforms = platforms.all;
   };
 }
